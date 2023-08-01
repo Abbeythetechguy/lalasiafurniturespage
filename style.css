@@ -32,7 +32,7 @@ body header nav ul {
 }
 body header nav ul .navlinks {
   text-decoration: none;
-  color: black;
+  color: #7c7c7c;
   margin-right: 28px;
 }
 body header .nav-icons {
@@ -76,7 +76,7 @@ body main .hero-section .hero-box h1 .winked-star {
   height: 46px;
 }
 body main .hero-section .hero-box p {
-  color: #AFADB5;
+  color: #7c7c7c;
   text-align: center;
   padding: 50px;
 }
@@ -105,4 +105,246 @@ body main .hero-section .spiral-arrow {
   top: 220px;
   width: 234px;
   height: 234px;
+}
+body main .benefit-section {
+  padding: 0 82px;
+}
+body main .benefit-section .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  row-gap: 100px;
+}
+body main .benefit-section .grid-container .grid-items {
+  height: 266px;
+  width: 370px;
+  margin: 0 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px gray;
+}
+body main .benefit-section .grid-container .grid-items .fa-solid {
+  color: rgb(7, 121, 115);
+  background-color: #FFB23F;
+  padding: 20px;
+  border-radius: 50%;
+}
+body main .benefit-section .grid-container .grid-items img {
+  width: 58px;
+  height: 58px;
+}
+body main .benefit-section .grid-container .grid-items h3 {
+  font-size: 22px;
+  margin: 20px 0;
+}
+body main .benefit-section .grid-container .grid-items p {
+  color: #7c7c7c;
+}
+body main .benefit-section .grid-container .item1 {
+  width: 608px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 40px;
+}
+body main .benefit-section .grid-container .item1 p {
+  font-size: 20px;
+  color: #FFB23F;
+}
+body main .benefit-section .grid-container .item2 {
+  display: flex;
+  align-items: center;
+  color: #7c7c7c;
+}
+body main .img-slide {
+  position: relative;
+  margin: 100px 0;
+}
+body main .img-slide button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.486);
+  color: white;
+}
+body main .img-slide .btn1 {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+}
+body main .img-slide .btn2 {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+body main .img-slide .intro-text {
+  text-align: center;
+}
+body main .img-slide .intro-text span {
+  color: #FFB23F;
+  font-weight: bold;
+}
+body main .img-slide .intro-text h1 {
+  font-size: 40px;
+  margin: 10px 0 20px;
+}
+body main .img-slide .intro-text p {
+  color: #7c7c7c;
+}
+body main .img-slide .img-flex-container {
+  display: flex;
+  overflow: hidden;
+}
+body main .img-slide .img-flex-container .img-flexboxes {
+  width: 370px;
+  height: 512px;
+  box-shadow: 0 0 10px gray;
+  margin: 30px;
+}
+body main .img-slide .img-flex-container .img-flexboxes img {
+  width: 370px;
+  height: 338px;
+}
+body main .img-slide .img-flex-container .img-flexboxes div {
+  padding: 10px;
+}
+body main .img-slide .img-flex-container .img-flexboxes div p {
+  color: #7c7c7c;
+  margin: 15px 0;
+}
+body main .img-slide .img-flex-container .img-flexboxes div a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+body main .img-slide .img-flex-container .img-flexboxes div span {
+  font-size: 20px;
+  font-weight: bold;
+}
+body main .craft-section {
+  margin-bottom: 100px;
+}
+body main .craft-section .craft-sec-container {
+  display: flex;
+  padding: 0 100px;
+}
+body main .craft-section .craft-sec-container .craft-left {
+  width: 50%;
+}
+body main .craft-section .craft-sec-container .craft-left .items1 {
+  width: 500px;
+  height: 360px;
+  box-shadow: 0 0 10px grey;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 46px;
+}
+body main .craft-section .craft-sec-container .craft-left .items1 span {
+  color: #FFB23F;
+}
+body main .craft-section .craft-sec-container .craft-left .items1 h1 {
+  font-size: 40px;
+}
+body main .craft-section .craft-sec-container .craft-left .items1 p {
+  color: #7c7c7c;
+  font-size: 14px;
+}
+body main .craft-section .craft-sec-container .craft-left .items1 a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #518581;
+  color: white;
+}
+body main .craft-section .craft-sec-container .craft-left .craft-sec-items img {
+  width: 560px;
+  height: 244px;
+}
+body main .craft-section .craft-sec-container .craft-right {
+  width: 50%;
+}
+body main .craft-section .craft-sec-container .craft-right .items2 {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+body main .craft-section .craft-sec-container .craft-right .items2 div {
+  width: 140px;
+  padding: 5px;
+  margin: 0 15px;
+}
+body main .craft-section .craft-sec-container .craft-right .items2 div h1 {
+  font-size: 40px;
+}
+body main .craft-section .craft-sec-container .craft-right .items2 div p {
+  margin-top: 10px;
+  color: #7c7c7c;
+}
+body main .craft-section .craft-sec-container .craft-right .craft-sec-items {
+  margin-top: 70px;
+  position: relative;
+}
+body main .craft-section .craft-sec-container .craft-right .craft-sec-items img {
+  position: absolute;
+  right: 0;
+  width: 540px;
+  height: 480px;
+}
+body main .testimonial {
+  margin-bottom: 100px;
+}
+body main .testimonial .testimonial-up {
+  text-align: center;
+}
+body main .testimonial .testimonial-up span {
+  color: #FFB23F;
+  font-weight: bold;
+}
+body main .testimonial .testimonial-up h1 {
+  font-size: 40px;
+  margin: 12px 0 20px;
+}
+body main .testimonial .testimonial-up p {
+  color: #7c7c7c;
+  line-height: 20px;
+}
+body main .testimonial .testimonial-down {
+  display: flex;
+  margin-top: 40px;
+}
+body main .testimonial .testimonial-down .testi-clients-boxes {
+  width: 430px;
+  height: 240px;
+  padding: 20px;
+  flex-shrink: 0;
+  margin: 0 10px;
+  box-shadow: 0 0 10px grey;
+}
+body main .testimonial .testimonial-down .testi-clients-boxes .fa-quote-left {
+  color: rgb(51, 196, 176);
+}
+body main .testimonial .testimonial-down .testi-clients-boxes p {
+  margin: 20px 0 30px;
+  line-height: 30px;
+}
+body main .testimonial .testimonial-down .testi-clients-boxes div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .testimonial .testimonial-down .testi-clients-boxes div span {
+  display: flex;
+  align-items: center;
+}
+body main .testimonial .testimonial-down .testi-clients-boxes div span img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 0;
+  margin-right: 10px;
+}
+body main .testimonial .testimonial-down .testi-clients-boxes div span .fa-star {
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
