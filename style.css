@@ -347,4 +347,158 @@ body main .testimonial .testimonial-down .testi-clients-boxes div span img {
 }
 body main .testimonial .testimonial-down .testi-clients-boxes div span .fa-star {
   margin-right: 10px;
+}
+body main .articles {
+  padding: 0 82px;
+  display: flex;
+  margin: 150px 0 100px;
+}
+body main .articles .articles-left {
+  width: 50%;
+  height: 887px;
+  position: relative;
+}
+body main .articles .articles-left span {
+  color: #FFB23F;
+  font-weight: bold;
+  font-size: 20px;
+}
+body main .articles .articles-left h1 {
+  font-size: 40px;
+  margin: 25px 0;
+}
+body main .articles .articles-left .snr-man {
+  margin: 10px 0 50px;
+}
+body main .articles .articles-left .tips-tricks {
+  position: absolute;
+  bottom: 150px;
+  left: 30px;
+}
+body main .articles .articles-left .tips-tricks p {
+  color: white;
+  margin: 20px 0;
+}
+body main .articles .articles-left .tips-tricks h2 {
+  color: white;
+}
+body main .articles .articles-left .tips-tricks a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+body main .articles .articles-left .art-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+}
+body main .articles .articles-left .art-btn .article-btn {
+  width: 70px;
+  height: 70px;
+  border: 0;
+}
+body main .articles .articles-left .art-btn .btn1 {
+  background-color: white;
+  color: #518581;
+  box-shadow: 0 0 2px grey;
+}
+body main .articles .articles-left .art-btn .btn2 {
+  background-color: #518581;
+  color: white;
+}
+body main .articles .articles-right {
+  width: 50%;
+  height: 887px;
+}
+body main .articles .articles-right .article-right-boxes {
+  display: flex;
+  align-items: center;
+  margin: 22px 0;
+}
+body main .articles .articles-right .article-right-boxes .art-right-right {
+  width: 329px;
+  height: 204px;
+  padding: 0 20px;
+}
+body main .articles .articles-right .article-right-boxes .art-right-right p {
+  color: #7c7c7c;
+  font-size: 18px;
+}
+body main .articles .articles-right .article-right-boxes .art-right-right h2 {
+  font-size: 22px;
+  margin: 20px 0;
+}
+body main .articles .articles-right .article-right-boxes .art-right-right span {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+body main .articles .articles-right .article-right-boxes .art-right-right span h3 {
+  font-size: 16px;
+  margin: 0 5px 0 2px;
+}
+body main .articles .articles-right .article-right-boxes .art-right-right span p {
+  font-size: 10px;
+}
+body main .discount {
+  display: flex;
+  position: relative;
+  margin: 0 82px;
+  height: 52px;
+}
+body main .discount h1 {
+  font-size: 40px;
+}
+body main .discount a {
+  text-decoration: none;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #518581;
+  color: white;
+  border: 0;
+  position: absolute;
+  right: 0;
+}
+body main .discount a .fa-solid {
+  margin-left: 10px;
+}
+body main footer {
+  display: flex;
+  height: 380px;
+  padding: 130px 82px 82px;
+}
+body main footer .footer-left {
+  width: 50%;
+}
+body main footer .footer-left h1 img {
+  width: 30px;
+  height: 30px;
+}
+body main footer .footer-left p {
+  margin-top: 40px;
+}
+body main footer .footer-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+body main footer .footer-right .footer-nav-container {
+  margin-left: 80px;
+  float: right;
+  width: 120px;
+  word-spacing: 1px;
+}
+body main footer .footer-right .footer-nav-container ul {
+  margin-top: 15px;
+  list-style: none;
+}
+body main footer .footer-right .footer-nav-container ul a {
+  text-decoration: none;
+  color: black;
+  margin: 10px 0;
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
